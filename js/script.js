@@ -184,6 +184,11 @@ function startTimeCounter(time) {
             // Auto-select correct option
             showCorrectOption();
 
+            // Disable other options
+            Array.from(option_list.children).forEach(option => {
+                option.classList.add('disable');
+            });
+
             // Show Next button
             next_btn.classList.remove('disable');
         }
