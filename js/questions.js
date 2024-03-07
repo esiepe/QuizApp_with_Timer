@@ -1,205 +1,105 @@
 // Array to store all questions
 let question_bank = [
     {
-        question: "What does HTML stand for?",
-        answer: "Hyper Text Markup Language",
+        question: "The internet functions like a vast network of what?",
+        answer: "Computers and devices",
         options: [
-            "Hyper Text Preprocessor",
-            "Hyper Text Markup Language",
-            "Hyper Text Multiple Language",
-            "Hyper Tool Multi Language"
+            "Cables and wires",
+            "Computers and devices",
+            "Websites and servers",
+            "All of the above"
         ]
     },
     {
-        question: "What does CSS stand for?",
-        answer: "Cascading Style Sheet",
+        question: "What is the primary function of the HTTP protocol?",
+        answer: "Transfer data between web browsers and servers",
         options: [
-            "Common Style Sheet",
-            "Colorful Style Sheet",
-            "Computer Style Sheet",
-            "Cascading Style Sheet"
+            "Secure online transactions",
+            "Translate domain names to IP addresses",
+            "Transfer data between web browsers and servers",
+            "Store and organize website content"
         ]
     },
     {
-        question: "What does PHP stand for?",
-        answer: "Hypertext Preprocessor",
+        question: "What does DNS stand for, and what role does it play in internet browsing?",
+        answer: "Domain Name System, translates domain names to IP addresses",
         options: [
-            "Hypertext Preprocessor",
-            "Hypertext Programming",
-            "Hypertext Preprogramming",
-            "Hometext Preprocessor"
+            "Data Network System, manages user data flow",
+            "Domain Name System, translates domain names to IP addresses",
+            "Digital Navigation Service, guides users to specific websites",
+            "Data Network Switch, controls data transfer between devices"
         ]
     },
     {
-        question: "What does SQL stand for?",
-        answer: "Structured Query Language",
+        question: "What is a domain name, and how does it differ from an IP address?",
+        answer: "A domain name is a user-friendly website address, while an IP address is a numerical code that identifies a device.",
         options: [
-            "Stylish Question Language",
-            "Stylesheet Query Language",
-            "Statement Question Language",
-            "Structured Query Language"
+            "They are the same thing, just different names for the same online location.",
+            "A domain name is a user-friendly website address, while an IP address is a numerical code that identifies a device.",
+            "A domain name is a website's category, while an IP address is its unique identifier.",
+            "Domain names are used for email, while IP addresses are used for websites."
         ]
     },
     {
-        question: "What does XML stand for?",
-        answer: "eXtensible Markup Language",
+        question: "What is the purpose of web hosting, and who typically provides this service?",
+        answer: "Hosting companies store and manage website content, making it accessible online.",
         options: [
-            "eXtensible Markup Language",
-            "eXecutable Multiple Language",
-            "eXTra Multi-Program Language",
-            "eXamine Multiple Language"
+            "Hosting companies store and manage website content, making it accessible online.",
+            "Users can host online meetings and conferences through web hosting services.",
+            "Web hosting allows users to share personal files and documents securely.",
+            "Search engines use web hosting to store and index website information."
         ]
     },
     {
-        question: "What is HTML?",
-        answer: "All of the mentioned",
+        question: "What is the primary function of a web browser?",
+        answer: "To access and navigate websites on the internet",
         options: [
-            "HTML describes the structure of a webpage",
-            "HTML is the standard markup language mainly used to create web pages",
-            "HTML consists of a set of elements that helps the browser how to view the content",
-            "All of the mentioned"
+            "To create and edit websites",
+            "To translate languages online",
+            "To send and receive emails",
+            "To access and navigate websites on the internet"
         ]
     },
     {
-        question: "Who is the father of HTML?",
-        answer: "Tim Berners-Lee",
+        question: "How does a web browser interpret and display the content of a website?",
+        answer: "By converting the website's code into human-readable text and images.",
         options: [
-            "Rasmus Lerdorf",
-            "Tim Berners-Lee",
-            "Brendan Eich",
-            "Sergey Brin"
+            "By converting the website's code into human-readable text and images.",
+            "By directly connecting to the website's server and displaying its content.",
+            "By searching for the website's information on the internet and presenting it",
+            "By using a complex algorithm to understand and translate the website's data."
         ]
     },
     {
-        question: "What is the correct syntax of doctype in HTML5?",
-        answer: "<!doctype html>",
+        question: "In addition to HTTP, what other common protocols are used for secure online communication?",
+        answer: "HTTPS and SSH",
         options: [
-            "</doctype html>",
-            "<doctype html>",
-            "<doctype html!>",
-            "<!doctype html>"
+            "DNS and IP",
+            "HTML and CSS",
+            "HTTPS and SSH",
+            "FTP and SMTP"
         ]
     },
     {
-        question: "Which of the following is used to read an HTML page and render it?",
+        question: "What is the difference between the World Wide Web and the internet?",
         answer: "Web browser",
         options: [
-            "Web server",
-            "Web network",
-            "Web browser",
-            "Web matrix"
+            "The internet is a physical network, while the web is a virtual space built on top of it.",
+            "The internet is for communication, while the web is for information access.",
+            "The web is a type of search engine, while the internet connects devices globally.",
+            "There is no difference; they are just different names for the same thing."
         ]
     },
     {
-        question: "Which of the following is not a difference between HTML and XHTML?",
-        answer: "Charset in both html and xhtml is \"text/html\"",
+        question: "When you type a web address into your browser, what happens first?",
+        answer: "The browser sends a request to a DNS server to translate the domain name into an IP address.",
         options: [
-            "Charset in both html and xhtml is \"text/html\"",
-            "Tags and attributes are case-insensitive in HTML but not in XHTML",
-            "Special characters must be escaped using character entities in XHTML unlike HTML",
-            "Charset in html is \"text/html\" where as in xhtml it is \"application/xml+xhtml\""
+            "The browser directly displays the content of the website.",
+            "Your computer searches for the website on your local hard drive.",
+            "The browser sends a request to a DNS server to translate the domain name into an IP address.",
+            "The website's server sends the website's content to your browser."
         ]
-    },
-    {
-        question: "Which of the following tag is used for inserting the largest heading in HTML?",
-        answer: "<h1>",
-        options: [
-            "head",
-            "<h1>",
-            "<h6>",
-            "heading"
-        ]
-    },
-    {
-        question: "What is DOM in HTML?",
-        answer: "Convention for representing and interacting with objects in html documents",
-        options: [
-            "Language dependent application programming",
-            "Hierarchy of objects in ASP.NET",
-            "Application programming interface",
-            "Convention for representing and interacting with objects in html documents"
-        ]
-    },
-    {
-        question: "In which part of the HTML metadata is contained?",
-        answer: "head tag",
-        options: [
-            "head tag",
-            "title tag",
-            "html tag",
-            "body tag"
-        ]
-    },
-    {
-        question: "Which element is used to get highlighted text in HTML5?",
-        answer: "<mark>",
-        options: [
-            "<u>",
-            "<mark>",
-            "<highlight>",
-            "<b>"
-        ]
-    },
-    {
-        question: "Which of the following is not a HTML5 tag?",
-        answer: "<slider>",
-        options: [
-            "<track>",
-            "<video>",
-            "<slider>",
-            "<source>"
-        ]
-    },
-    {
-        question: "How do we write comments in HTML?",
-        answer: "<!.....>",
-        options: [
-            "</.....>",
-            "<!.....>",
-            "</...../>",
-            "<.....!>"
-        ]
-    },
-    {
-        question: "Which of the following is not the element associated with the HTML table layout?",
-        answer: "color",
-        options: [
-            "alignment",
-            "color",
-            "size",
-            "spanning"
-        ]
-    },
-    {
-        question: "Which element is used for or styling HTML5 layout?",
-        answer: "CSS",
-        options: [
-            "CSS",
-            "jQuery",
-            "JavaScript",
-            "PHP"
-        ]
-    },
-    {
-        question: "HTML is a subset of .....",
-        answer: "SGML",
-        options: [
-            "SGMT",
-            "SGML",
-            "SGME",
-            "XHTML"
-        ]
-    },
-    {
-        question: "Which of the following HTML tag is used to create an unordered list?",
-        answer: "<ul>",
-        options: [
-            "<ol>",
-            "<ul>",
-            "<li>",
-            "<ll>"
-        ]
-    },
+    }
 ];
 
 // Get 10 random questions

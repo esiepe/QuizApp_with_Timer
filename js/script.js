@@ -1,7 +1,7 @@
 // App settings
 let time_counter;
 let time_counter_line;
-let time_limit = 15;
+let time_limit = 25;
 let unit_per_sec = 50 // 30 units = 1 sec
 
 // Quiz related stuff
